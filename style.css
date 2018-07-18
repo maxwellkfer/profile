@@ -1,5 +1,5 @@
 body {
-  background: #EBEBEB;
+  background: #edeff0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #283c8f;
@@ -104,13 +104,15 @@ a:visited {
 }
 
 #sidebar {
+  display: inline-block;
   position: fixed;
-  width: 300px;
+  width: 20%;
   left: 0;
   top: 0;
   bottom: 0;
 }
 
 #page-content {
-  margin-left: 300px;
+  display: inline-block;
+  width: 80%;
 }
