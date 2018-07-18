@@ -1,0 +1,105 @@
+body {
+  background: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #283c8f;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1 {
+  color: #dd474b;
+  text-align: center;
+
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+
+}
+
+p {
+  text-align: justify;
+}
+
+.img-circle {
+  border-radius: 20%;
+  width: 200px;
+  height: 200px;
+  border: 3px solid #cccccc;
+}
+
+.image-film {
+  width: 200px;
+  height: 275px;
+}
+
+.card {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 150px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card1 {
+  text-align: center;
+  background: linear-gradient(to right, #283c8f, white , #dd474b);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 150px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card1 p {
+  color: white;
+}
+
+.card2 p {
+  background: white;
+  color: #283c8f;
+}
+
+.movie-card {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.container {
+  width: 60%;
+  margin: 30px auto;
+}
+
+.list-inline {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+}
+
+.list {
+  font-size: 40px;
+  text-align: center;
+  -webkit-padding-start: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #283c8f;
+}
+
+a:hover {
+  color: #dd474b;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
